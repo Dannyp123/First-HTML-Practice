@@ -3,11 +3,96 @@
 <head>
     <title>Base Camp Coding Academy</title>
     <style>
+        html {
+            margin: 0;
+            padding: 0;
+        }
+
         header {
             width: 100%;
             display: flex;
             align-items: center;
             justify-content: space-between;
+
+        }
+
+        body {
+            margin: 0;
+            background-color: deepskyblue;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+        }
+
+        h1 {
+            font-family: 'Times New Roman', Times, serif;
+            color: silver;
+            text-shadow: 3px 3px 2px #000000;
+            font-size: 55px;
+            text-align: center;
+            padding: 2rem;
+        }
+
+        h2 {
+            font-family: 'Times New Roman', Times, serif;
+            background-color: aquamarine;
+            text-align: center;
+            font-size: 25px;
+            padding: 2rem;
+        }
+
+        h3 {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            background-color: aquamarine;
+            text-align: center;
+            font-size: 25px;
+            padding: 1rem;
+        }
+
+        p.github span {
+            background-color: white;
+            text-align: center;
+            font-weight: bold;
+            text-decoration-color: black;
+
+        }
+
+        a {
+            color: black
+        }
+
+        a:hover {
+            color: aquamarine
+        }
+
+        a:visited {
+            color: crimson
+        }
+
+        p.github {
+            text-align: center
+        }
+
+        h4 {
+            text-align: center
+        }
+
+        p.center {
+            text-align: center;
+            font-size: 19px
+        }
+
+        .list {
+            font-size: 20px
+        }
+
+        .portfolio {
+            font-size: 20px
+        }
+
+        div.portfolio h2 {
+            text-align: center;
+            font-size: 25px;
+            padding: 1px
         }
     </style>
 </head>
@@ -15,24 +100,26 @@
 <body>
 
     <header>
-        <i>To see the real Base Camp website click this photo!------------></i>
         <a href="https://basecampcodingacademy.org/about" target="_blank">
-            <img src="/home/basecamp/Pictures/BCCA.jpg" width="400" height="200" />
+            <img src="images/BCCA.jpg" width="400" height="200" />
         </a>
-        <img src="/home/basecamp/Pictures/BCCA2.jpeg" width="425" height="275" />
+        <img src="images/BCCA2.jpeg" width="425" height="275" />
     </header>
 
-    <div>
-        <h1>About:</h1>
+    <div id="about">
+        <h1>
+            About:
+        </h1>
         <p>Located in Water Valley, MS, Base Camp Coding Academy is a hands-on, challenging and fun program, designed to train
             students to be software developers in 12 months. In a small classroom setting, you will work with real world
             technologies to learn the fundamentals of coding, app development and the life leadership skills you will need
             to be successful in your career and competitive in the job market.</p>
     </div>
-    <div>
+
+    <div class="list">
         <p>
             <a href="https://en.wikipedia.org/wiki/Computer_programming" target="_blank">
-                <img src="/home/basecamp/Pictures/BCCA4.jpeg" align='right' width="425" height="275">
+                <img src="images/BCCA4.jpeg" align='right' width="425" height="275">
             </a>
             <i>To futher you knowledge of Coding, click the photo!----------------------></i>
             <h2>How to become a Base Camp Student:</h2>
@@ -48,33 +135,56 @@
             </li>
             </p>
         </ol>
-
+    </div>
+    <div>
         <h3>What do you not need to attend Base Camp Coding Academy?</h3>
-        <p>
+
+        <p class="center">
             <b>
-                <i>Money:</i>
-            </b>
-            </br>Every student accepted into Base Camp Coding Academy receives a 100% scholarship.</p>
-        <h4>Student Portfolio:</h4>
-        <p>
-            <a href="https://github.com/natec425" target="_blank">Nate Clark</a>
+                <i>Money:</b>
+            </i> Every student accepted into Base Camp Coding Academy receives a 100% scholarship.</p>
+    </div>
+    <div class="portfolio">
+        <h2>Portfolio's</h2>
+        <h4>Director's Portfolio:</h4>
+        <p class="github">
+            <span>
+                <a href="https://github.com/seanthony" target="_blank">Sean Anthony</a>
+            </span>
         </p>
 
-        <p>
-            <a href="https://github.com/Dannyp123" target="_blank">Daniel Peterson</a>
+        <p class="github">
+            <span>
+                <a href="https://github.com/natec425" target="_blank">Nate Clark</a>
+            </span>
         </p>
-        <p>
-            <a href="https://github.com/ColeAnderson7278" target="_blank">Cole Anderson</a>
+        <h4>Student's Portfolio:</h4>
+        <p class="github">
+            <span>
+                <a href="https://github.com/Dannyp123" target="_blank">Daniel Peterson</a>
+            </span>
+        </p>
+        <p class="github">
+            <span>
+                <a href="https://github.com/ColeAnderson7278" target="_blank">Cole Anderson</a>
+            </span>
         </p>
 
-        <p>
-            <a href="https://github.com/jtaylor99" target="_blank">Justice Taylor</a>
+        <p class="github">
+            <span>
+                <a href="https://github.com/jtaylor99" target="_blank">Justice Taylor</a>
+            </span>
         </p>
 
+        <p class="github">
+            <span>
+                <a href="https://github.com/Jakylan" target="_blank">Jakylan Standifer</a>
+            </span>
+        </p>
     </div>
 
     <footer>
-        @Copyright Daniel Peterson(BCCA)
+        Copyright&copy; Daniel Peterson(BCCA)
     </footer>
 </body>
 
