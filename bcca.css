@@ -1,0 +1,149 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+body {
+    margin: 0;
+    background-color: lightseagreen;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+h1 {
+    font-family: "Times New Roman", Times, serif;
+    color: black;
+    background-color: aquamarine;
+    font-size: 50px;
+    text-align: center;
+    padding: 0.5ex;
+    letter-spacing: 0.1em;
+    line-height: 2ex;
+}
+
+h2 {
+    font-family: "Times New Roman", Times, serif;
+    background-color: aquamarine;
+    text-align: center;
+    font-size: 25px;
+    padding: 1mm;
+    padding-bottom: 1mm;
+    padding-top: 1mm;
+}
+
+h3 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    background-color: aquamarine;
+    text-align: center;
+    font-size: 25px;
+    padding: 1rem;
+}
+
+p.github span {
+    text-align: center;
+    font-weight: bold;
+    text-decoration-color: black;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: darkgray;
+}
+
+p.github {
+    text-align: center;
+    font-weight: bold;
+    padding: 1mm;
+}
+
+h4 {
+    text-align: center;
+    padding: 1cm;
+}
+
+p.center {
+    text-align: center;
+    font-size: 19px;
+    margin-top: 1cm;
+    margin-bottom: 2cm;
+}
+
+div.list {
+    font-size: 20px;
+    text-align: left;
+}
+
+div.link {
+    text-align: right;
+    line-height: 5mm;
+    margin: 1mm;
+    margin-bottom: 4mm;
+    padding: 1mm;
+    padding-top: 4mm;
+    padding-bottom: 1mm;
+}
+div.list h2 {
+    margin: 1mm;
+    padding-bottom: 4mm;
+    padding-top: 4mm;
+}
+
+.portfolio {
+    font-size: 20px;
+}
+
+div.portfolio h2 {
+    text-align: center;
+    font-size: 25px;
+    padding: 1mm;
+    margin-bottom: 2cm;
+    letter-spacing: 0.1cm;
+    line-height: 3rem;
+}
+
+div.container {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+div.student-links {
+    text-align: right;
+}
+div.search {
+    margin: 0mm;
+    padding: 0mm;
+    padding-top: 3mm;
+    padding-bottom: 3mm;
+}
+.director {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 23pt;
+    text-align: center;
+    padding: 1cm;
+    padding-top: 1cm;
+    padding-bottom: 1cm;
+    background-color: aquamarine;
+    border-radius: 50%;
+}
+
+div#about {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 18pt;
+    margin: 1cm;
+    padding: 1mm;
+}
+
+div.founded {
+    text-align: center;
+    font-size: 20pt;
+}
